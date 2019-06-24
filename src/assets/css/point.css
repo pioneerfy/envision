@@ -1,0 +1,245 @@
+.main{
+    width: 100%;
+    min-width: 1170px;
+    margin: 0 auto ;
+
+
+}
+.luckbg{
+    width: 100%;
+    background: #de1e37;
+    height: 1300px;
+    padding-top: 60px;
+}
+.lucktitle{
+    background:url("../pointimg/title.jpg") no-repeat center;
+    width: 354px;
+    height: 177px;
+    margin: 0 auto 40px;
+    /*padding-top: 30px;*/
+}
+.luck{
+    width:570px;
+    margin: 0 auto 30px;
+
+
+}
+.banner{
+    width:100%;
+    height: 500px;
+}
+.swiper-button-white{
+    display: none;
+}
+.title{
+    background: #f5f5f5;
+    text-align: center;
+    height: 40px;
+    margin: 40px auto 40px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    /*margin-bottom: 30px;*/
+}
+
+.exchange{
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin: 0 auto;
+    height: auto;
+    flex-wrap: wrap;
+}
+.goods-module{
+    flex-basis: 200px;
+    width: 220px;
+    height: 340px;
+    background: white;
+    padding: 30px 5px 0 5px;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 0 3px 10px -3px #a8a8a8;
+
+    /*margin: 30px 0;*/
+}
+.goods-module img{
+    /*cursor: pointer;*/
+    width: 140px;
+    height: 160px;
+}
+.goods-module p,.goods-module h3{
+    margin: 10px 0;
+    font-size: 13px;
+}
+.goods-pic {
+    width: 200px;
+    overflow: hidden;
+    /*height: 200px;*/
+}
+.goods-pic img{
+    width:100%;
+
+}
+.surplus{
+    width: 200px;
+    margin: 40px auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.surplusPoint{
+    font-size: 20px;
+}
+#lottery{width:570px;height:510px;margin:0 auto;}
+#lottery{
+    margin-right: 0;
+    position: relative;
+}
+.bg{
+    /*background-size: cover;background:url("../pointimg/jifen1.jpg") no-repeat center;*/
+    width: 120%;
+    height: 120%;
+    position: absolute;
+    z-index: -20;
+    top: -120px}
+#lottery table{
+
+    /*border-collapse:*/
+    background: #ee544c;
+    /*border: 3px solid #a51245;*/
+}
+#lottery table td{position:relative;width:190px;height:170px;text-align:center;color:#333;}
+#lottery table td img{display:block;width:160px;height: 160px; margin: 0 auto}
+#lottery table td .sta{width:190px;height:170px;display:block;text-decoration:none;
+    background: url("../pointimg/start.png") no-repeat center;background-size: cover;
+}
+.lottery-unit{
+
+    /*background:url("../pointimg/box.png") no-repeat center; background-size: cover*/
+}
+/*#lottery table td a:hover{background-image:url(images/lottery2.jpg);}*/
+#lottery table td.active .mask1{display:block;}
+.mask1{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    background:url("../pointimg/xuanz.png");
+    display:none;
+}
+a {
+    color: white;
+}
+.btn{
+    width: 100px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 5px;
+    background-color: #111111;
+    transition: all .2s;
+    border: 1px solid #cccccc;
+    font-size: 12px;
+    margin: 30px auto 0;
+
+}
+.btn:focus {
+    outline: none;
+}
+.btn:hover {
+    transform: translate(-6px -6px);
+    box-shadow: 5px 5px 5px #c9c7c7bd;
+}
+.rule{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 30px;
+}
+.rule h3{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.rule-box{
+    width: 600px;
+    margin: 30px auto 0;
+    text-align: left;
+    font-size: 14px;
+    line-height: 25px;
+}
+/*模态框*/
+.modal{
+    text-align: center;
+    position: fixed;
+    width: 300px;
+    background-color: #f5f5f5;
+    left: calc(50% - 150px);
+    top:-200px;
+    z-index: 6;
+    padding: 10px 15px;
+    border-radius: 5px;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+.check-modal{
+    width: 800px;
+    top:-600px;
+    left: calc(50% - 400px);
+}
+.modal-title{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #bbbbbb;
+}
+.del-h{
+    float: left;
+    font-weight: 600;
+}
+.close{
+    float: right;
+    font-size: 12px!important;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.check-modal h3{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.del-p{
+    margin: 30px 0;
+}
+.modal-content{
+    margin: 10px 0;
+    font-size: 12px;
+}
+.btn-wrap{
+    text-align: center;
+}
+.btn-wrap button{
+    padding: 6px 12px;
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.line-btn{
+    text-align: center;
+    margin-top: 30px;
+}
+.modal-line button{
+    padding: 8px 20px;
+    background-color: #111111;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.pz{
+    color: red;
+}

@@ -1,0 +1,165 @@
+
+#dior .fl {
+    float: left;
+}
+#dior .fr {
+    float: right;
+}
+#dior .clear::before,
+#dior .clear::after {
+    content: '';
+    display: table;
+}
+#dior .clear::after {
+    clear: both;
+}
+#dior .h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#dior .h3 {
+    font-size: 15px;
+    padding-top: 30px;
+    font-weight: 500;
+}
+
+/* banner */
+#dior .swiper-container {
+    width: 1170px;
+    height: 500px;
+}
+#dior .swiper-pagination-bullet-active {
+    background: black;
+}
+
+#dior .synopsis-wrap {
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+#dior .synopsis {
+    width: 990px;
+    height: 180px;
+    display: inline-block;
+    background: red;
+}
+
+/* perfume */
+#dior .perfume {
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+#dior .last-sec {
+    padding-bottom: 60px;
+}
+
+#dior .perfume-wrap {
+    width: 1170px;
+    margin-bottom: 40px;
+    padding: 40px 60px 0;
+    display: inline-block;
+}
+
+#dior .perfume-wrap>h2 {
+    margin-bottom: 10px;
+}
+#dior .perfume-wrap>p {
+    margin-bottom: 40px;
+}
+#dior .shows {
+    min-height: 240px;
+}
+#dior .goods-module {
+    width: 230px;
+    margin-left: 43px;
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    box-shadow: 0 3px 10px -3px #a8a8a8
+}
+#dior .goods-module:first-child {
+    margin-left: 0;
+}
+#dior .goods-pic {
+    min-height: 160px;
+}
+#dior .goods-pic>img {
+    width: 184px;
+    height: 160px;
+}
+#dior .d-goods-price {
+    font-size: 16px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+#dior .read-more {
+    cursor: pointer;
+    border: none;
+    padding: 5px 18px 0;
+    font-size: 14px;
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+    line-height: 14px;
+}
+#dior .read-more:focus {
+    outline: none;
+}
+#dior .read-more:hover>span:first-child {
+    text-decoration: underline;
+}
+#dior .read-more:hover {
+    color: #c41d1d;
+}
+
+#dior .fold>button {
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    text-decoration: underline;
+    color: #adadad;
+    cursor: pointer;
+    padding-top: 10px;
+}
+#dior .fold>button:focus {
+    outline: none;
+}
+#dior .fold>button:hover {
+    color: #c41d1d;
+}
+#dior .fold {
+    display: none;
+}
+#dior .shows-row {
+    position: relative;
+}
+#dior .shows-row>.goods-module:nth-child(4n+1) {
+    margin-left: 0;
+}
+
+/* 没有更多 */
+#dior #not-more {
+    width: 240px;
+    padding: 6px 0;
+    font-size: 16px;
+    text-align: center;
+    color: #eeeeee;
+    background: #272727cb;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-120px);
+    z-index: 1000;
+    opacity: 1;
+    display: none;
+    border-radius: 16px;
+}
+
+#dior .swiper-wrapper {
+    cursor: pointer;
+}

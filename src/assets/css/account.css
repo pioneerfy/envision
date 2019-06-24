@@ -1,0 +1,90 @@
+@charset "utf-8";
+html,body{
+    min-width: 1170px;
+}
+.body{
+    width: 1170px;
+    margin: 0 auto;
+}
+.sbody{
+    width: 980px;
+}
+.bg{
+    width: 1170px;
+    background: url("../images/sxb/account_header_image.jpg");
+    background-color: black;
+    background-size: 100% auto;
+    height: 115px;
+    padding: 40px;
+}
+.bg div{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.content{
+    padding: 20px 0;
+}
+.content nav{
+    background-color: white;
+    padding: 10px 0;
+    box-shadow: 0 3px 10px -3px #a8a8a8;
+    overflow: hidden;
+}
+.content nav li a{
+    display: inline-block;
+    padding: 20px 40px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-bottom: 2px;
+    position: relative;
+    z-index: 1;
+}
+/*.content nav li:before{*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    /*width: 0;*/
+    /*height: 100%;*/
+    /*background-color: #111;*/
+    /*z-index: -1;*/
+    /*transition: all 0.5s ease;*/
+/*}*/
+.content nav li:hover{
+    background-color: #111111;
+    color: white;
+}
+.content nav li:hover a{
+    color: white;
+    transform: translateX(10px);
+}
+.content nav li:hover:before{
+    width: 100%;
+}
+.content nav .active{
+    /*background-color: #242424;*/
+    /*color: white;*/
+    font-weight: bold;
+}
+#navcontent{
+    width: 980px;
+    min-height: 585.2px;
+    background-color: white;
+    box-shadow: 0 3px 10px -3px #a8a8a8;
+    text-align: left;
+    position: relative;
+}
+.router-link-active {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.router-link-exact-active{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+a:-webkit-any-link {
+    color: black;
+}

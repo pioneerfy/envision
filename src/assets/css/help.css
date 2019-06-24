@@ -1,0 +1,110 @@
+
+    /*帮助解决问题+客户+问题css样式设置*/
+.content-wrap{
+    padding: 0;
+    font-family: Arial;
+    width: 1170px;
+    height: 641.567px;
+    margin: 0 auto;
+
+}
+.content-wrap .p{
+    padding: 20px 0;
+    font-size: 14px;
+    color: #1e1e1e;
+}
+.content-wrap .content{
+    height: 400px;
+    padding: 0;
+}
+/*解决问题css样式设置*/
+.content .solve{
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: #333;
+    width: 757.5px;
+    height: 464px;
+    float: left;
+}
+.content .solve h2{
+    color: #333;
+    font-size: 24px;
+    border-bottom: 2px solid #797979;
+    padding-bottom: 10px;
+}
+.content .solve div{
+    border-top: 1px solid #797979 ;
+    border-bottom:1px solid #797979 ;
+    margin-bottom: 10px;
+}
+.content .solve p{
+    padding: 20px 0 15px 0;
+}
+.content .solve .p1{
+    font-size: 14px;
+}
+.content .solve .p2{
+    color: #a1a1a1;
+}
+.content .solve .p1 span{
+    float: right;
+    font-size: 24px;
+    line-height: 20px;
+}
+/*客户中心+常见问题*/
+.content .serve-issue{
+    width: 277.5px;
+    height: 581.567px;
+    float: right;
+    padding-right: 0;
+    color: #000;
+}
+/*客户中心*/
+.serve-issue .serve{
+    background: #d7d7d7;
+    padding: 40px 30px 80px 30px;
+
+}
+.serve-issue .serve p{
+    text-align: center;
+    font-size: 13px;
+    padding-bottom: 10px;
+    /*color: #797979;*/
+}
+.serve-issue .serve p:first-child{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #797979;
+    font-size: 14px;
+}
+.serve-issue .serve p:nth-child(2){
+    padding-top: 20px;
+}
+
+/*常见问题*/
+.serve-issue .issue{
+    margin-top: 20px;
+    padding: 40px 30px 80px 30px;
+    background: #d7d7d7;
+
+}
+.serve-issue .issue p{
+    font-size: 13px;
+    padding-top: 10px;
+}
+.serve-issue .issue p span{
+    color: #000;
+    cursor: pointer;
+}
+.serve-issue .issue p:first-child{
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #797979;
+}
+.serve-issue .issue p:nth-child(2){
+    padding-top: 20px;
+}
+.toggle{
+    user-select: none;
+}

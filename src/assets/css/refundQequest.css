@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/* 退款买家请求头部图片 */
+.refundrequest-specific{
+    box-sizing: border-box;
+    padding: 20px 100px;
+    background: white;
+}
+.refundQequst header{
+    text-align: center;
+    border: none;
+}
+.refundQequst-header{
+width: 30%;
+background: #666666;
+color: white;
+display: inline-block;
+text-align: center;
+padding: 10px;
+}
+.refundrequest-content{
+    padding-top: 20px ;
+}
+.refundrequest-content>p:nth-child(1){
+float: left;
+width: 72px;
+}
+.refundrequest-content>p:nth-child(2){
+margin-left: 80px;
+width: 100px;
+}
+.refundrequest-content>p:nth-child(2) label{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px
+}
+#refundPrice{
+    cursor: not-allowed;
+
+}
+.refund-reason{
+ width: 250px;
+ /* height: 80px; */
+ padding: 5px;
+ margin-left: 15px;
+ outline: none;
+ resize: none;
+}
+#textarea{
+    width: 450px;
+    height: 150px;
+}
+#refund-button{
+    padding: 10px 100px;
+    background: #333333;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-left: 87px;
+    margin-top: 30px;
+}

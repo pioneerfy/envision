@@ -1,0 +1,119 @@
+.favContent .main{
+    width: 980px;
+    min-height: 790px;
+}
+.sbody .favContent{
+    width: 980px;
+}
+.sbody .favContent{
+    padding: 30px 100px;
+}
+.favContent h1 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.favContent h1:after{
+    content: '';
+    display: block;
+    height: 1px;
+    background:#888888;
+    width: 100%;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.favContent .goods-module{
+    margin: 30px 0 30px 6% ;
+    width:25%;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    overflow: auto;
+
+}
+.favContent .goods-module h3{
+    margin: 10px 0 20px;
+    font-size: 13px;
+}
+.favContent .goods-module p{
+    margin: 10px 0 30px;
+    font-size: 13px;
+}
+/*.goods-pic{*/
+/*display: inline-block;*/
+/*width: 30%;*/
+/*}*/
+.favContent .goods-module{
+    width: 200px;
+    height: 200px;
+    background: white;
+    padding: 30px 5px 0 5px;
+    /*margin-bottom: 30px;*/
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 3px 10px -3px #a8a8a8;
+
+
+    /*margin: 30px 0;*/
+}
+.favContent .goods-pic img{
+    /*cursor: pointer;*/
+    width: 100px;
+    height: 80px;
+
+}
+.favContent .goods-pic{
+    position: relative;
+}
+.favContent .icon-guanbi{
+    font-size: 15px;
+    font-weight:700 ;
+    position: absolute;
+    top: -25px;
+    right: 5px;
+    display: none;
+    transition: all .3s;
+}
+.favContent .goods-module:hover .icon-guanbi{
+    display:block;
+}
+.favContent .icon-guanbi:hover{
+    font-size: 18px;
+}
+.favContent .pagination {
+    margin-top: 20px;
+    text-align: right;
+}
+.favContent .pagination button {
+    width: 28px;
+    padding: 5px 0;
+    margin-right: 10px;
+    border: 1px solid #e2e2e2;
+    background-color: white;
+    color: #888;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.favContent .pagination .on {
+    background-color: #111111;
+    color: #fff;
+    border: none;
+}
+/*.goods-module{*/
+/*margin-right: 135px;*/
+/*}*/
+/*.goods-module:nth-child(3){*/
+/*margin-right:0;*/
+/*}*/
+/*.goods .goods-module:last-child{*/
+/*margin-right:0;*/
+/*}*/
+.favContent .tips{
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: #888888;
+}

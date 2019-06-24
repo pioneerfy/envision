@@ -1,0 +1,45 @@
+/* 首页头部 */
+.header{
+    height: 80px !important;
+    line-height: 80px;
+    background: rgb(84, 92, 100);
+    position: relative;
+}
+#logoImg{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%)
+}
+#logoImg>img{
+    height: 60px;
+    width: auto;
+    vertical-align: middle;
+}
+.header-content{
+    float: right
+}
+.header-content a{
+    color: white;
+}
+.header-content>span{
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.item-group{
+    color: yellow !important;
+}
+.bc_link{
+    color: white;
+    font-size: 14px;
+}
+.container{
+    background: white;
+}
+#back-container{
+    height: 100%;
+}
+#aside{
+    background-color: rgb(84, 92, 100);
+}

@@ -1,0 +1,7 @@
+.el-carousel{
+    margin-top: 50px;
+    height: 365.2px;
+}
+.el-carousel__container{
+    height: 363px!important;
+}

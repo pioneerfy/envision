@@ -1,0 +1,94 @@
+html{color:#000;background:#FFF}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;
+    font-weight:normal}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+q:before,q:after{content:''}
+abbr,acronym{border:0;font-variant:normal}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}
+legend{color:#000}
+a{text-decoration: none}
+
+/*全局样式*/
+html,body{
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 100%;
+    color: #444444;
+}
+*{
+    box-sizing: border-box;
+}
+.clear:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearFix:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+/*灰色蒙版*/
+.mask{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(44, 44, 44, 0.55);
+    z-index: 4;
+    display: none;
+}
+/*模态框公共样式*/
+.modal{
+    position: fixed;
+    background-color: #f5f5f5;
+    z-index: 6;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s;
+    box-shadow: 0 3px 10px -3px #a8a8a8;
+}
+.modal-title{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #bbbbbb;
+    margin-bottom: 20px;
+}
+/*省市区三级联动*/
+fieldset {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+legend{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#addr-show02{
+    width: 200px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.btn:disabled{
+    background-color:#ccc;
+}

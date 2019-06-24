@@ -1,0 +1,104 @@
+    /*找回密码css样式设置*/
+body{
+    background: #fff;
+    height: 900px;
+
+}
+.content-wrap{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial;
+}
+.content-wrap .p{
+    padding: 20px 0;
+    font-size: 14px;
+    color: #1e1e1e;
+}
+.content-wrap .title{
+    font-size: 24px;
+    padding: 10px 40px 0;
+    color: #797979;
+    margin-bottom: 10px;
+}
+/*验证码验证*/
+.find{
+    height: 400px;
+    padding: 30px 0 0;
+    width: 877.5px;
+    float: left;
+}
+/*找回密码流程*/
+    .find .flow .step13,
+    .find .flow .step14,
+    .find .flow .step15,
+    .find .flow .step16{
+        display: inline-block;
+        width: 211.867px;
+        height: 74px;
+        padding-top: 10px;
+        padding-left: 30px;
+        font-weight: 700;
+        color: #797979;
+    }
+    .step13 p:first-child,
+    .step14 p:first-child,
+    .step15 p:first-child,
+    .step16 p:first-child{
+        padding-bottom: 5px;
+    }
+    .step13 p:last-child,
+    .step14 p:last-child,
+    .step15 p:last-child{
+        padding-bottom: 15px;
+        border-bottom: 4px solid #797979!important;
+    }
+    .step16{
+        color: #000!important;
+    }
+    .step16 p:last-child{
+        padding-bottom: 15px;
+        border-bottom: 4px solid #000;
+    }
+/*电话验证码*/
+.find .return{
+    padding-left: 220px;
+    padding-top: 80px;
+}
+.return button{
+    width: 124px;
+    height: 35px;
+    margin-top: 30px;
+    background: #000;
+    padding: 7px;
+    color: #fff;
+    border: none;
+    outline: none;
+    clear: both;
+}
+form button:hover{
+    background: #666;
+}
+/*服务中心*/
+.serve{
+    width: 292.5px;
+    height: 276.2px;
+    float: right;
+    padding: 40px;
+    background: #eee;
+    color: #000;
+}
+.serve h2{
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #797979;
+}
+.serve p{
+    text-align: center;
+}
+.serve .contact{
+    margin-top: 20px;
+}
+.serve .tel{
+    margin-top: 20px;
+}

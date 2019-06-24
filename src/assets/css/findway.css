@@ -1,0 +1,161 @@
+/*找回密码css样式设置*/
+.content-wrap{
+    width: 1170px;
+    margin: 0 auto;
+    height: 1500px;
+    padding: 0;
+    font-family: Arial;
+}
+.content-wrap .p{
+    padding: 20px 0;
+    font-size: 14px;
+    color: #1e1e1e;
+}
+.content-wrap .title{
+    font-size: 24px;
+    padding: 10px 40px 0;
+    color: #797979;
+    margin-bottom: 10px;
+}
+/*验证码验证*/
+.find{
+    width: 877.5px;
+    float: left;
+    height: 400px;
+    padding: 30px 0 0;
+}
+/*找回密码流程*/
+.find .flow .step1,
+.find .flow .step2,
+.find .flow .step3,
+.find .flow .step4{
+    display: inline-block;
+    width: 211.867px;
+    height: 74px;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-weight: 700;
+    color: #797979;
+}
+.step1 p:first-child,
+.step2 p:first-child,
+.step3 p:first-child,
+.step4 p:first-child{
+    padding-bottom: 5px;
+}
+.step2 p:last-child,
+.step3 p:last-child,
+.step4 p:last-child{
+    padding-bottom: 15px;
+    border-bottom: 4px solid #797979;
+}
+.step1{
+    color: #000!important;
+}
+.step1 p:last-child{
+    padding-bottom: 15px;
+    border-bottom: 4px solid #000!important;
+}
+/*电话验证码*/
+.find form{
+    padding-left: 220px;
+    padding-top: 40px;
+}
+/*电话*/
+form .check p{
+    display: inline-block;
+    padding: 20px 0;
+    font-size: 14px;
+    color: #000;
+}
+form .check .number .number-write{
+    width: 50%!important;
+    height: 35px;
+    padding-left: 20px;
+    border: 1px solid #bfbfbf;
+}
+form .check .number input::placeholder{
+    color: #797979;
+}
+
+form .check .tip{
+    display: inline-block;
+    padding-left: 20px;
+    height: 24px;
+    width: 230px;
+    margin-top: 10px;
+    color: red;
+    font-size: 12px;
+    border: none;
+    outline: none;
+}
+/*验证码*/
+form .code-check{
+    margin-top: 10px;
+    overflow: auto;
+}
+form .code-check .imgcode{
+    float: left;
+    width: 124px!important;
+    padding: 6px 15px;
+    border: 1px solid #bfbfbf;
+}
+form .code-check #canvas{
+    float: left;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+form .code-check .change{
+    user-select: none;
+    float: left;
+    cursor: pointer;
+    line-height: 34px;
+    text-decoration: underline;
+}
+form .codetip{
+    margin-top: 0px;
+}
+form .codetip .imgCodeTip{
+    border: none;
+    outline: none;
+    color: red;
+    padding-left: 20px;
+    font-size: 12px;
+}
+/*提交*/
+form button{
+    margin-top: 20px;
+    background: #111;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    outline: none;
+    clear: both;
+    cursor: pointer;
+}
+/*服务中心*/
+.serve{
+    width: 292.5px;
+    height: 276.2px;
+    float: right;
+    padding: 40px;
+    background: #eee;
+    color: #000;
+}
+.serve h2{
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #797979;
+}
+.serve p{
+    text-align: center;
+}
+.serve .contact{
+    margin-top: 20px;
+}
+.serve .tel{
+    margin-top: 20px;
+}
+

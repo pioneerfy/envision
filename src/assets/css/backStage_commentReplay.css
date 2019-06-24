@@ -1,0 +1,65 @@
+.replymain{
+    box-sizing: border-box;
+    padding: 15px;
+    margin-top: 25px;
+}
+/* 表单设置 */
+/* 用户 */
+#merchat-portraint{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+}
+.merchatName{
+color: rgba(153, 153, 153, 0.549);
+line-height: 15px !important;
+margin-top: -5px !important;
+}
+/* 商品 */
+.shoppingName{
+width: 70%;
+}
+.shoppingName1{
+width: 90%;
+}
+.shoppingName span{
+    color: #999999cb;
+    margin-right: 15px;
+}
+#shoppingImg{
+width: auto;
+height: 150px;
+vertical-align: middle
+
+}
+.miniInput{
+    width: 100px;
+}
+/* 评价 */
+.evaluateImg{
+width: 100px;
+height: 50px;
+float: left;
+margin-left: 15px;
+}
+.evaluateImg>img{
+    width: auto;
+    height: 100%;
+}
+/* 分割线 */
+.part-line>p{
+    padding: 10px 5px;
+    background: rgba(204, 204, 204, 0.281);
+    color: #333333;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.replymain .el-form-item{
+margin-left: 40px;
+}
+.replayCommit{
+    border: none;
+    outline: none;
+    background: black;
+}

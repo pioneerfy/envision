@@ -1,0 +1,102 @@
+/* 头部搜索设置 */
+.specification-content{
+    padding: 15px 15px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    margin-top: 25px;
+    text-align: center;
+    background: white;
+}
+.specification-content-top>div>input{
+height: 35px;
+line-height: 35px;
+width: 125px;
+border: 1px solid #DCDFE6;
+border-radius: 5px;
+margin-right: 40px;
+box-sizing: border-box;
+padding-left: 5px;
+vertical-align: top;
+}
+.specification-content-top>div>input::-webkit-input-placeholder{
+    color: #cccccc;
+    font-size: 14px;
+    font-weight: 500;
+}
+.specification-content-top select{
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #DCDFE6;
+    outline: none;
+    border-radius: 5px;
+    margin-right: 25px;
+    font-size: 14px;
+    vertical-align: top;
+}
+.specification-content-top button{
+    padding: 5px 15px;
+    background: black;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-left: 10px;
+    overflow: hidden;
+}
+.specification-content-topS {
+text-align: right;
+padding-top: 10px;
+}
+#block{
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+.el-picker-panel{
+    position: absolute !important;
+    top: 185px !important;
+    left: 155px !important;
+}
+#block>div{
+    height: 35px;
+    line-height: 35px;
+}
+#block>div>span{
+    width: 7%;
+}
+/* 表格内容 */
+.specification-content-main>table{
+    margin: 40px auto 0px;
+
+}
+.specification-content-main>table>tr>th{
+    width:150px;
+    height: 40px;
+    line-height: 40px;
+    /* border: 1px solid #666666; */
+    text-align: center;
+}
+
+/* 表格内容 */
+.evaluateTable>tr:nth-child(odd){
+background: rgba(173, 173, 173, 0.308);
+}
+.evaluateTable>tr:nth-child(even){
+background: rgba(221, 221, 221, 0.308);
+}
+.evaluateTable>tr:first-child{
+    background: black;
+    color: white
+}
+/* 分页 */
+#paging{
+    margin-top: 30px;
+    margin-right: 20px;
+    text-align: right
+}
+.el-pagination.is-background .el-pager li:not(.disabled).active{
+    background: black;
+    color: white
+}

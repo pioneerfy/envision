@@ -1,0 +1,239 @@
+header{
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 100;
+}
+.nav-top{
+    width: 100%;
+    height: 35px;
+    background-color: #000000;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.nav-left,.nav-right{
+    display: inline-flex;
+    justify-content: space-around;
+    line-height: 35px;
+}
+.nav-left li{
+    margin-right: 25px;
+    cursor: pointer;
+}
+.nav-left li:hover{
+    color: #e2e2e2;
+}
+.nav-right li{
+    box-sizing: content-box;
+    position: relative;
+    text-align: center;
+    margin-left: 15px;
+    padding: 0 12px;
+    cursor: pointer;
+}
+.user-li{
+    padding: 0 20px!important;
+}
+
+.nav-right li{
+    text-align: center;
+    height: 100%;
+}
+.nav-top ul li{
+    color: #FFFFFF;
+}
+.cart-li{
+    background-color: #232323;
+}
+.nav-top .icon-gouwuche{
+    font-size: 14px!important;
+}
+.nav-top .icon-arrow-down{
+    font-size: 12px!important;
+    line-height: 16px;
+}
+.user-panel{
+    color: #444444;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100px;
+    z-index: 8;
+    display: none;
+    box-shadow: 0 3px 10px -3px #a8a8a8;
+}
+.user-panel .up-line{
+    height: 35px;
+    width: 100%;
+    font-size: 12px;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+.user-li:hover{
+    background-color: #ffffff;
+    color: #f10000;
+}
+.user-li:hover .user-panel{
+    display: block;
+}
+.up-line:hover{
+    background-color: #f5f5f5;
+    color: #f10000;
+}
+.help-li:hover{
+    color: #f10000;
+    background-color: #fff;
+}
+.help-li:hover .help-panel{
+    display: block;
+}
+.help-panel{
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 320px;
+    height: auto;
+    color: #444444;
+    background-color: #f5f5f5;
+    z-index: 5;
+    padding: 15px;
+    display: none;
+    box-shadow: 0 3px 10px -3px #a8a8a8;
+    font-size: 12px;
+}
+.help-title{
+    font-weight: bolder;
+    font-size: 14px;
+}
+.help-p{
+    font-size: 12px;
+}
+.help-linkwrap{
+
+    margin-top: 20px;
+    border-top: 1px solid #000000;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.help-link{
+    color: #000000;
+    flex-basis: 50%;
+    font-size: 12px;
+}
+.help-link:hover{
+    color: #f10000;
+}
+.h-nav{
+    width: 1170px;
+    height: 110px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.h-logo{
+    float: left;
+    width: 170px;
+    height: 80px;
+    /*background-color: #ffffff;*/
+}
+.h-logo img{
+    width: 100%;
+    height: 100%;
+}
+.main-nav{
+    float: left;
+    margin-left: 30px;
+    width: 580px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 80px;
+    font-size: 18px;
+}
+.main-nav .nav-link{
+    color: #444444;
+    font-weight: 600;
+}
+.main-nav .nav-active{
+    font-weight: 600;
+}
+.search{
+    float: right;
+    width: 250px;
+    height: 80px;
+    line-height: 80px;
+}
+.sh-wrap{
+    width: 100%;
+    height: 38px;
+    background-color: #f5f5f5;
+    border-radius: 14px;
+    margin-top: 21px;
+    border: 1px solid #969696;
+    display: flex;
+}
+.sh-input{
+    width: 86%;
+    height: 100%;
+    outline: none;
+    border: none;
+    padding: 5px 5px 5px 20px;
+    background-color: transparent;
+}
+.sh-btn{
+    width: 13%;
+    height: 100%;
+    font-size: 18px!important;
+    text-align: center;
+    line-height: 38px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+/* 搜索下拉 */
+
+.selected {
+    background: #0e0e0e;
+    color: white;
+}
+
+.proposal:hover {
+    background: #0e0e0e;
+    color: white;
+}
+
+.proposal-list {
+    width: 263px;
+    margin-top: 10px;
+    position: absolute;
+    z-index: 2;
+    background: white;
+    border: 1px solid #e4e3e3;
+    border-radius: 8px;
+}
+.proposal {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.proposal:first-child {
+    padding-top: 10px;
+    height: 50px;
+}
+.proposal:last-child {
+    height: 50px;;
+    padding-bottom: 10px;
+}
+.proposal:not(:last-child) {
+    border-bottom: 1px solid #adadad;
+}

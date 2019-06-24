@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* 退款进度头部内容 */
+.refund-info{
+    box-sizing: border-box;
+    padding: 50px 200px;
+    background: white;
+}
+.refund-info header{
+    border-bottom: 1px solid #cccccc;
+}
+.refund-info header>h2{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+/* 退款进度主体内容：商品信息 */
+.refund-content-goods{
+    height: 170px;
+    margin: 30px 0 0;
+    padding-bottom: 15px;
+    background: white;
+    border-bottom: 1px solid #cccccc;
+}
+.refund-content-goodsImg{
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+.refund-content-goodsImg>img{
+    height: 100%;
+    width: 100%;
+}
+.refund-content-goodsInfo{
+margin-left: 200px;
+line-height: 40px;
+}
+.refund-content-goodsInfo>p:first-child{
+    font-weight: 400;
+    font-size: 16px;
+}
+.refund-content-goodsInfo>p:nth-child(2),.refund-content-goodsInfo>:nth-child(3){
+    color: #999999;
+    font-size: 15px;
+}
+/* 退款进度主体内容：退款类型 */
+.refund-content-type{
+box-sizing: border-box;
+padding: 20px;
+background: white;
+overflow: hidden;
+}
+.refund-content-typeImg{
+    margin-top: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+    border: 1px solid #cccccc;
+    width: 430px;
+    padding: 30px;
+    float: left;
+}
+.refund-content-typeImg:hover{
+    border: 1px solid red;
+    cursor: pointer;
+}
+.refund-content-type>div:nth-child(2){
+    float: right
+}
+.refund-content-typeImg>div:nth-child(1){
+    float: left;
+    margin-right: 20px;
+    height: 100px;
+}
+.refund-content-typeImg img{
+ width: 50px;
+ height: auto;
+}
+.refund-content-typeInfo{
+    margin-left: 60px;
+}
+.refund-content-typeInfo>p:nth-child(1){
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 10px
+
+}

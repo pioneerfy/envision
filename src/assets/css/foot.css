@@ -1,0 +1,74 @@
+.footContent .main{
+    width: 980px;
+    min-height: 790px;
+}
+.sbody .footContent{
+    width: 980px;
+}
+.sbody .footContent{
+    padding: 30px 100px;
+}
+.footContent h1{
+    font-family: Roboto Condensed,Noto Sans,STXihei,华文细黑,Microsoft YaHei New,Microsoft Yahei,微软雅黑,宋体,SimSun,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #000;
+}
+/*.footContent h1:after{*/
+    /*content: '';*/
+    /*display: block;*/
+    /*height: 1px;*/
+    /*background:#888888;*/
+    /*width: 100%;*/
+    /*margin-top:30px;*/
+    /*margin-bottom: 30px;*/
+/*}*/
+
+.footContent .orders-title{
+    background-color: #ececec;
+    font-size: 12px;
+    padding-left: 20px;
+    height: 30px;
+    line-height: 30px;
+}
+.footContent .orders-title div{
+    display: inline-block;
+    margin-right: 20px;
+}
+.footContent .show{
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+
+    /*background: #ffffff;*/
+}
+
+.footContent .goods-module{
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 60px;
+    width: 220px;
+    height: 280px;
+    background: white;
+    padding: 30px 5px 0 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 0 3px 10px -3px #a8a8a8;
+    vertical-align: top;
+    /*margin: 30px 0;*/
+}
+.footContent .goods-module:nth-child(3n){
+    margin-right: 0;
+}
+.footContent .goods-module img{
+    /*cursor: pointer;*/
+    width: 140px;
+    height: 160px;
+}
+.footContent .goods-module p,.goods-module h3{
+    margin: 10px 0;
+    font-size: 13px;
+    font-family: Maven Pro,Noto Sans,STXihei,华文细黑,Microsoft YaHei New,Microsoft Yahei,微软雅黑,宋体,SimSun,sans-serif;
+}
